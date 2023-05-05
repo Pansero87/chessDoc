@@ -1,0 +1,17 @@
+<map id="pieces.Piece" name="pieces.Piece">
+<area shape="rect" id="Node000001" title=" " alt="" coords="333,79,435,104"/>
+<area shape="rect" id="Node000003" href="$classpieces_1_1_bishop.html" title=" " alt="" coords="5,152,117,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="320,109,114,155,113,149,319,104"/>
+<area shape="rect" id="Node000004" href="$classpieces_1_1_king.html" title=" " alt="" coords="142,152,239,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="341,111,223,154,221,149,339,106"/>
+<area shape="rect" id="Node000005" href="$classpieces_1_1_knight.html" title=" " alt="" coords="263,152,374,177"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="366,116,331,154,327,150,362,113"/>
+<area shape="rect" id="Node000006" href="$classpieces_1_1_pawn.html" title=" " alt="" coords="398,152,501,177"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="406,113,441,150,437,154,402,116"/>
+<area shape="rect" id="Node000007" href="$classpieces_1_1_queen.html" title=" " alt="" coords="525,152,635,177"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="429,106,549,149,547,154,427,111"/>
+<area shape="rect" id="Node000008" href="$classpieces_1_1_rook.html" title=" " alt="" coords="660,152,761,177"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="449,104,660,150,659,155,448,109"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="341,5,427,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="387,44,387,79,381,79,381,44"/>
+</map>

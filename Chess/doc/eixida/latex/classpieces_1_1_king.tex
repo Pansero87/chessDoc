@@ -1,0 +1,196 @@
+\doxysection{Referencia de la clase pieces.\+King}
+\hypertarget{classpieces_1_1_king}{}\label{classpieces_1_1_king}\index{pieces.King@{pieces.King}}
+
+
+Diagrama de herencia de pieces.\+King
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=157pt]{classpieces_1_1_king__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagrama de colaboración de pieces.\+King\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{classpieces_1_1_king__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classpieces_1_1_king_a9634b953030b6a6bb696465a24136481}{King}} (String i, String p, int c, int x, int y)
+\item 
+void \mbox{\hyperlink{classpieces_1_1_king_a50abc32a712bcea91dd14ab56271fb3e}{setx}} (int x)
+\item 
+void \mbox{\hyperlink{classpieces_1_1_king_ad2cc9233c35a950bedc47bf7626d0b4d}{sety}} (int y)
+\item 
+int \mbox{\hyperlink{classpieces_1_1_king_af18ad8ae71d8f3b78f54ed079ebf0009}{getx}} ()
+\item 
+int \mbox{\hyperlink{classpieces_1_1_king_a56357600c81542772091388891fe772b}{gety}} ()
+\item 
+Array\+List$<$ Cell $>$ \mbox{\hyperlink{classpieces_1_1_king_ac6682724966b9265afe3f7f4ed4610f1}{move}} (Cell state\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}, int x, int y)
+\item 
+boolean \mbox{\hyperlink{classpieces_1_1_king_ac3d94b4b9dd3de4087ff22a2a0389a19}{isindanger}} (Cell state\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos públicos heredados de \mbox{\hyperlink{classpieces_1_1_piece}{pieces.\+Piece}}}
+\begin{DoxyCompactItemize}
+\item 
+abstract Array\+List$<$ Cell $>$ \mbox{\hyperlink{classpieces_1_1_piece_a5cf069738cff43e1b6616bc193721c42}{move}} (Cell pos\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}, int x, int y)
+\item 
+void \mbox{\hyperlink{classpieces_1_1_piece_af2fdd1dcd575e9fcd0eef32b42aa846b}{set\+Id}} (String id)
+\item 
+void \mbox{\hyperlink{classpieces_1_1_piece_aed21b88c46f8a7e7d6670d7f61afab33}{set\+Path}} (String path)
+\item 
+void \mbox{\hyperlink{classpieces_1_1_piece_af12d507d80028bbb0d861becb4037363}{set\+Color}} (int c)
+\item 
+String \mbox{\hyperlink{classpieces_1_1_piece_a83ca02d8f33d50dc4fcfc8934dca902d}{get\+Path}} ()
+\item 
+String \mbox{\hyperlink{classpieces_1_1_piece_ad87aca569644e35fb0d4cd2006cccd6d}{get\+Id}} ()
+\item 
+int \mbox{\hyperlink{classpieces_1_1_piece_a70a3ab5805026ad22d75e82eba4aaf95}{getcolor}} ()
+\item 
+\mbox{\hyperlink{classpieces_1_1_piece}{Piece}} \mbox{\hyperlink{classpieces_1_1_piece_a00df1840a079c87feb136555e1e7d62d}{getcopy}} ()  throws Clone\+Not\+Supported\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Otros miembros heredados}
+\doxysubsection*{Atributos protegidos heredados de \mbox{\hyperlink{classpieces_1_1_piece}{pieces.\+Piece}}}
+\begin{DoxyCompactItemize}
+\item 
+Array\+List$<$ Cell $>$ \mbox{\hyperlink{classpieces_1_1_piece_a350d60ec36892a34774d287da8cae1e2}{possiblemoves}} = new Array\+List$<$Cell$>$()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+La clase Rey \begin{DoxyAuthor}{Autor}
+sergio 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Versión}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxySince}{Desde}
+5-\/05-\/2023 
+\end{DoxySince}
+
+
+\doxysubsection{Documentación de constructores y destructores}
+\Hypertarget{classpieces_1_1_king_a9634b953030b6a6bb696465a24136481}\label{classpieces_1_1_king_a9634b953030b6a6bb696465a24136481} 
+\index{pieces.King@{pieces.King}!King@{King}}
+\index{King@{King}!pieces.King@{pieces.King}}
+\doxysubsubsection{\texorpdfstring{King()}{King()}}
+{\footnotesize\ttfamily pieces.\+King.\+King (\begin{DoxyParamCaption}\item[{String}]{i,  }\item[{String}]{p,  }\item[{int}]{c,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+Instància un nou rey
+
+
+\begin{DoxyParams}{Parámetros}
+{\em i} & the i \\
+\hline
+{\em p} & the p \\
+\hline
+{\em c} & the c \\
+\hline
+{\em x} & the x \\
+\hline
+{\em y} & the y \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Documentación de funciones miembro}
+\Hypertarget{classpieces_1_1_king_af18ad8ae71d8f3b78f54ed079ebf0009}\label{classpieces_1_1_king_af18ad8ae71d8f3b78f54ed079ebf0009} 
+\index{pieces.King@{pieces.King}!getx@{getx}}
+\index{getx@{getx}!pieces.King@{pieces.King}}
+\doxysubsubsection{\texorpdfstring{getx()}{getx()}}
+{\footnotesize\ttfamily int pieces.\+King.\+getx (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Gets L x.
+
+\begin{DoxyReturn}{Devuelve}
+la x 
+\end{DoxyReturn}
+\Hypertarget{classpieces_1_1_king_a56357600c81542772091388891fe772b}\label{classpieces_1_1_king_a56357600c81542772091388891fe772b} 
+\index{pieces.King@{pieces.King}!gety@{gety}}
+\index{gety@{gety}!pieces.King@{pieces.King}}
+\doxysubsubsection{\texorpdfstring{gety()}{gety()}}
+{\footnotesize\ttfamily int pieces.\+King.\+gety (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Gets L y.
+
+\begin{DoxyReturn}{Devuelve}
+lay y 
+\end{DoxyReturn}
+\Hypertarget{classpieces_1_1_king_ac3d94b4b9dd3de4087ff22a2a0389a19}\label{classpieces_1_1_king_ac3d94b4b9dd3de4087ff22a2a0389a19} 
+\index{pieces.King@{pieces.King}!isindanger@{isindanger}}
+\index{isindanger@{isindanger}!pieces.King@{pieces.King}}
+\doxysubsubsection{\texorpdfstring{isindanger()}{isindanger()}}
+{\footnotesize\ttfamily boolean pieces.\+King.\+isindanger (\begin{DoxyParamCaption}\item[{Cell}]{state\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+Mira si està en perill
+
+
+\begin{DoxyParams}{Parámetros}
+{\em state} & the state \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+true si està en perill 
+\end{DoxyReturn}
+\Hypertarget{classpieces_1_1_king_ac6682724966b9265afe3f7f4ed4610f1}\label{classpieces_1_1_king_ac6682724966b9265afe3f7f4ed4610f1} 
+\index{pieces.King@{pieces.King}!move@{move}}
+\index{move@{move}!pieces.King@{pieces.King}}
+\doxysubsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily Array\+List$<$ Cell $>$ pieces.\+King.\+move (\begin{DoxyParamCaption}\item[{Cell}]{state\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]},  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+Moviments
+
+
+\begin{DoxyParams}{Parámetros}
+{\em state} & the state \\
+\hline
+{\em x} & the x \\
+\hline
+{\em y} & the y \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+la arraylist 
+\end{DoxyReturn}
+
+
+Reimplementado de \mbox{\hyperlink{classpieces_1_1_piece_a5cf069738cff43e1b6616bc193721c42}{pieces.\+Piece}}.
+
+\Hypertarget{classpieces_1_1_king_a50abc32a712bcea91dd14ab56271fb3e}\label{classpieces_1_1_king_a50abc32a712bcea91dd14ab56271fb3e} 
+\index{pieces.King@{pieces.King}!setx@{setx}}
+\index{setx@{setx}!pieces.King@{pieces.King}}
+\doxysubsubsection{\texorpdfstring{setx()}{setx()}}
+{\footnotesize\ttfamily void pieces.\+King.\+setx (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+Set la X.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em x} & the new x \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classpieces_1_1_king_ad2cc9233c35a950bedc47bf7626d0b4d}\label{classpieces_1_1_king_ad2cc9233c35a950bedc47bf7626d0b4d} 
+\index{pieces.King@{pieces.King}!sety@{sety}}
+\index{sety@{sety}!pieces.King@{pieces.King}}
+\doxysubsubsection{\texorpdfstring{sety()}{sety()}}
+{\footnotesize\ttfamily void pieces.\+King.\+sety (\begin{DoxyParamCaption}\item[{int}]{y }\end{DoxyParamCaption})}
+
+Sets L y.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em y} & the new y \\
+\hline
+\end{DoxyParams}
+
+
+La documentación de esta clase está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
+\item 
+/home/sergio/\+Escritorio/eddex/\+Chess\+OOP/\+Chess/src/pieces/\mbox{\hyperlink{_king_8java}{King.\+java}}\end{DoxyCompactItemize}

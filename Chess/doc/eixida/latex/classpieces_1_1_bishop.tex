@@ -1,0 +1,106 @@
+\doxysection{Referencia de la clase pieces.\+Bishop}
+\hypertarget{classpieces_1_1_bishop}{}\label{classpieces_1_1_bishop}\index{pieces.Bishop@{pieces.Bishop}}
+
+
+Diagrama de herencia de pieces.\+Bishop
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{classpieces_1_1_bishop__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagrama de colaboración de pieces.\+Bishop\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{classpieces_1_1_bishop__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classpieces_1_1_bishop_ab05e1a97eca03699aa291bfa43c6efce}{Bishop}} (String i, String p, int c)
+\item 
+Array\+List$<$ Cell $>$ \mbox{\hyperlink{classpieces_1_1_bishop_add848b90ce11c1fe97530d9126ab41b8}{move}} (Cell state\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}, int x, int y)
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos públicos heredados de \mbox{\hyperlink{classpieces_1_1_piece}{pieces.\+Piece}}}
+\begin{DoxyCompactItemize}
+\item 
+abstract Array\+List$<$ Cell $>$ \mbox{\hyperlink{classpieces_1_1_piece_a5cf069738cff43e1b6616bc193721c42}{move}} (Cell pos\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}, int x, int y)
+\item 
+void \mbox{\hyperlink{classpieces_1_1_piece_af2fdd1dcd575e9fcd0eef32b42aa846b}{set\+Id}} (String id)
+\item 
+void \mbox{\hyperlink{classpieces_1_1_piece_aed21b88c46f8a7e7d6670d7f61afab33}{set\+Path}} (String path)
+\item 
+void \mbox{\hyperlink{classpieces_1_1_piece_af12d507d80028bbb0d861becb4037363}{set\+Color}} (int c)
+\item 
+String \mbox{\hyperlink{classpieces_1_1_piece_a83ca02d8f33d50dc4fcfc8934dca902d}{get\+Path}} ()
+\item 
+String \mbox{\hyperlink{classpieces_1_1_piece_ad87aca569644e35fb0d4cd2006cccd6d}{get\+Id}} ()
+\item 
+int \mbox{\hyperlink{classpieces_1_1_piece_a70a3ab5805026ad22d75e82eba4aaf95}{getcolor}} ()
+\item 
+\mbox{\hyperlink{classpieces_1_1_piece}{Piece}} \mbox{\hyperlink{classpieces_1_1_piece_a00df1840a079c87feb136555e1e7d62d}{getcopy}} ()  throws Clone\+Not\+Supported\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Otros miembros heredados}
+\doxysubsection*{Atributos protegidos heredados de \mbox{\hyperlink{classpieces_1_1_piece}{pieces.\+Piece}}}
+\begin{DoxyCompactItemize}
+\item 
+Array\+List$<$ Cell $>$ \mbox{\hyperlink{classpieces_1_1_piece_a350d60ec36892a34774d287da8cae1e2}{possiblemoves}} = new Array\+List$<$Cell$>$()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Esta es la Clase de Alfil. La Función de Movimiento define las reglas básicas para el movimiento del Alfil en un tablero de ajedrez.
+
+\begin{DoxyAuthor}{Autor}
+sergio @version1.0 
+\end{DoxyAuthor}
+\begin{DoxySince}{Desde}
+5-\/05-\/2023 
+\end{DoxySince}
+
+
+\doxysubsection{Documentación de constructores y destructores}
+\Hypertarget{classpieces_1_1_bishop_ab05e1a97eca03699aa291bfa43c6efce}\label{classpieces_1_1_bishop_ab05e1a97eca03699aa291bfa43c6efce} 
+\index{pieces.Bishop@{pieces.Bishop}!Bishop@{Bishop}}
+\index{Bishop@{Bishop}!pieces.Bishop@{pieces.Bishop}}
+\doxysubsubsection{\texorpdfstring{Bishop()}{Bishop()}}
+{\footnotesize\ttfamily pieces.\+Bishop.\+Bishop (\begin{DoxyParamCaption}\item[{String}]{i,  }\item[{String}]{p,  }\item[{int}]{c }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Documentación de funciones miembro}
+\Hypertarget{classpieces_1_1_bishop_add848b90ce11c1fe97530d9126ab41b8}\label{classpieces_1_1_bishop_add848b90ce11c1fe97530d9126ab41b8} 
+\index{pieces.Bishop@{pieces.Bishop}!move@{move}}
+\index{move@{move}!pieces.Bishop@{pieces.Bishop}}
+\doxysubsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily Array\+List$<$ Cell $>$ pieces.\+Bishop.\+move (\begin{DoxyParamCaption}\item[{Cell}]{pos\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]},  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+Moviment
+
+
+\begin{DoxyParams}{Parámetros}
+{\em pos} & the pos \\
+\hline
+{\em x} & the x \\
+\hline
+{\em y} & the y \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+the array list 
+\end{DoxyReturn}
+
+
+Reimplementado de \mbox{\hyperlink{classpieces_1_1_piece_a5cf069738cff43e1b6616bc193721c42}{pieces.\+Piece}}.
+
+
+
+La documentación de esta clase está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
+\item 
+/home/sergio/\+Escritorio/eddex/\+Chess\+OOP/\+Chess/src/pieces/\mbox{\hyperlink{_bishop_8java}{Bishop.\+java}}\end{DoxyCompactItemize}

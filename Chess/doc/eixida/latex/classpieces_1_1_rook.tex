@@ -1,0 +1,118 @@
+\doxysection{Referencia de la clase pieces.\+Rook}
+\hypertarget{classpieces_1_1_rook}{}\label{classpieces_1_1_rook}\index{pieces.Rook@{pieces.Rook}}
+
+
+Diagrama de herencia de pieces.\+Rook
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=157pt]{classpieces_1_1_rook__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagrama de colaboración de pieces.\+Rook\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{classpieces_1_1_rook__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classpieces_1_1_rook_ae1548b916e9fe4214d4988baa415e8e3}{Rook}} (String i, String p, int c)
+\item 
+Array\+List$<$ Cell $>$ \mbox{\hyperlink{classpieces_1_1_rook_a92c33e5292602037259a3dc943b1b17c}{move}} (Cell state\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}, int x, int y)
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos públicos heredados de \mbox{\hyperlink{classpieces_1_1_piece}{pieces.\+Piece}}}
+\begin{DoxyCompactItemize}
+\item 
+abstract Array\+List$<$ Cell $>$ \mbox{\hyperlink{classpieces_1_1_piece_a5cf069738cff43e1b6616bc193721c42}{move}} (Cell pos\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}, int x, int y)
+\item 
+void \mbox{\hyperlink{classpieces_1_1_piece_af2fdd1dcd575e9fcd0eef32b42aa846b}{set\+Id}} (String id)
+\item 
+void \mbox{\hyperlink{classpieces_1_1_piece_aed21b88c46f8a7e7d6670d7f61afab33}{set\+Path}} (String path)
+\item 
+void \mbox{\hyperlink{classpieces_1_1_piece_af12d507d80028bbb0d861becb4037363}{set\+Color}} (int c)
+\item 
+String \mbox{\hyperlink{classpieces_1_1_piece_a83ca02d8f33d50dc4fcfc8934dca902d}{get\+Path}} ()
+\item 
+String \mbox{\hyperlink{classpieces_1_1_piece_ad87aca569644e35fb0d4cd2006cccd6d}{get\+Id}} ()
+\item 
+int \mbox{\hyperlink{classpieces_1_1_piece_a70a3ab5805026ad22d75e82eba4aaf95}{getcolor}} ()
+\item 
+\mbox{\hyperlink{classpieces_1_1_piece}{Piece}} \mbox{\hyperlink{classpieces_1_1_piece_a00df1840a079c87feb136555e1e7d62d}{getcopy}} ()  throws Clone\+Not\+Supported\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Otros miembros heredados}
+\doxysubsection*{Atributos protegidos heredados de \mbox{\hyperlink{classpieces_1_1_piece}{pieces.\+Piece}}}
+\begin{DoxyCompactItemize}
+\item 
+Array\+List$<$ Cell $>$ \mbox{\hyperlink{classpieces_1_1_piece_a350d60ec36892a34774d287da8cae1e2}{possiblemoves}} = new Array\+List$<$Cell$>$()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Esta es la Clase Torre heredada de la clase abstracta Pieza (Piece). \begin{DoxyAuthor}{Autor}
+sergio 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Versión}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxySince}{Desde}
+5-\/05-\/2023 
+\end{DoxySince}
+
+
+\doxysubsection{Documentación de constructores y destructores}
+\Hypertarget{classpieces_1_1_rook_ae1548b916e9fe4214d4988baa415e8e3}\label{classpieces_1_1_rook_ae1548b916e9fe4214d4988baa415e8e3} 
+\index{pieces.Rook@{pieces.Rook}!Rook@{Rook}}
+\index{Rook@{Rook}!pieces.Rook@{pieces.Rook}}
+\doxysubsubsection{\texorpdfstring{Rook()}{Rook()}}
+{\footnotesize\ttfamily pieces.\+Rook.\+Rook (\begin{DoxyParamCaption}\item[{String}]{i,  }\item[{String}]{p,  }\item[{int}]{c }\end{DoxyParamCaption})}
+
+Instància una nova torrre
+
+
+\begin{DoxyParams}{Parámetros}
+{\em i} & the i \\
+\hline
+{\em p} & the p \\
+\hline
+{\em c} & the c \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Documentación de funciones miembro}
+\Hypertarget{classpieces_1_1_rook_a92c33e5292602037259a3dc943b1b17c}\label{classpieces_1_1_rook_a92c33e5292602037259a3dc943b1b17c} 
+\index{pieces.Rook@{pieces.Rook}!move@{move}}
+\index{move@{move}!pieces.Rook@{pieces.Rook}}
+\doxysubsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily Array\+List$<$ Cell $>$ pieces.\+Rook.\+move (\begin{DoxyParamCaption}\item[{Cell}]{state\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]},  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+Moviment
+
+
+\begin{DoxyParams}{Parámetros}
+{\em state} & the state \\
+\hline
+{\em x} & the x \\
+\hline
+{\em y} & the y \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+the array list 
+\end{DoxyReturn}
+
+
+Reimplementado de \mbox{\hyperlink{classpieces_1_1_piece_a5cf069738cff43e1b6616bc193721c42}{pieces.\+Piece}}.
+
+
+
+La documentación de esta clase está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
+\item 
+/home/sergio/\+Escritorio/eddex/\+Chess\+OOP/\+Chess/src/pieces/\mbox{\hyperlink{_rook_8java}{Rook.\+java}}\end{DoxyCompactItemize}

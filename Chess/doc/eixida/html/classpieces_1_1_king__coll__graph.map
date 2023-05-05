@@ -1,0 +1,9 @@
+<map id="pieces.King" name="pieces.King">
+<area shape="rect" id="Node000001" title=" " alt="" coords="67,168,164,193"/>
+<area shape="rect" id="Node000002" href="$classpieces_1_1_piece.html" title=" " alt="" coords="64,93,167,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,133,118,168,113,168,113,133"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,92,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="68,40,108,91,104,94,64,43"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="116,5,251,31"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="168,43,127,94,123,91,163,40"/>
+</map>
